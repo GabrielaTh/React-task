@@ -9,6 +9,21 @@
   margin-top: 5%;
 }
 
+#textNav{
+  font-size: 25px;
+}
+#text-1{
+  font-size: 25px;
+}
+#text-2{
+  font-size: 20px;
+}
+#btn{
+  font-size: 20px;
+}
+#description{
+  font-size: 20px;
+}
 
 @keyframes App-logo-spin {
   from {

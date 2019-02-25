@@ -35,42 +35,45 @@ class FromTask extends Component {
     });
   }
 
-  render(){
-    return(
-    <div className="card border-info mb-3 m-3">
-      <form onSubmit={this.handleSubmit} className="card-body">
+  render() {
+    return (
+      <div className="card border-info mb-3 m-3">
+        <form onSubmit={this.handleSubmit} className="card-body">
           <div className="form-group">
-            <input 
-            type="text" 
-            name="Date" 
-            value={this.state.Date} 
-            onChange={this.handleInputChange} 
-            className="form-control" 
-            placeholder="Date"/>
+            <input
+              id="description"
+              type="text"
+              name="Date"
+              value={this.state.Date}
+              onChange={this.handleInputChange}
+              className="form-control"
+              placeholder="Date" />
           </div>
-          <div className = "form-group">
-            <input 
-            type ="text" 
-            name ="Autor" 
-            className = "form-control"
-            value ={this.state.Autor} 
-            onChange ={this.handleInputChange} 
-            placeholder = "Autor"/>
-          </div> 
-          <div className = "form-group">
-            <input 
-            type = "text" 
-            name = "Description" 
-            className = "form-control" 
-            value = {this.state.Description} 
-            onChange = {this.handleInputChange} 
-            placeholder = "Description"/>
-          </div> 
-          <button type = "submit" className = "btn btn-outline-info" >
-              Save 
+          <div className="form-group">
+            <input
+              id="description"
+              type="text"
+              name="Autor"
+              className="form-control"
+              value={this.state.Autor}
+              onChange={this.handleInputChange}
+              placeholder="Autor" />
+          </div>
+          <div className="form-group">
+            <input
+              id="description"
+              type="text"
+              name="Description"
+              className="form-control"
+              value={this.state.Description}
+              onChange={this.handleInputChange}
+              placeholder="Description" />
+          </div>
+          <button id="btn" type="submit" className="btn btn-outline-info" >
+            Save
           </button>
-      </form>
-    </div>
+        </form>
+      </div>
 
     )
   }

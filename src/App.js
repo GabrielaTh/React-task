@@ -33,14 +33,14 @@ class App extends Component {
   render() {
     const task = this.state.task.map((task, i) => {
       return ( 
-      <div className = "col-md-4" key = {i}>
-        <div className = "card border-info text-center m-1">
+      <div className = "col-md-6" key = {i}>
+        <div className = "card border-info text-center m-2">
           <div className = "card-header bg-transparent border-info">
-            <h5> {task.Date} </h5> 
+            <h4> {task.Date} </h4> 
           </div> 
           <div className = "card-body">
-            <p>{task.Description}</p> <p> {task.Autor}</p> 
-              <button className = "btn btn-outline-danger" onClick = {this.removeTask.bind(this, i)}>
+            <p id="text-1">{task.Description}</p> <p id="text-2"> {task.Autor}</p> 
+              <button id="btn" className = "btn btn-outline-danger" onClick = {this.removeTask.bind(this, i)}>
                Delete 
               </button>  
           </div>
@@ -53,16 +53,16 @@ class App extends Component {
     return ( 
     <div className = "App">
       <nav className = "navbar navbar-dark bg-info">
-          <a href = "#" className = "nav-link text-white " href = "/">
+          <a href = "#" className = "nav-link text-white " href = "/" id="textNav">
              Task
             <span className = "badge badge-pill badge-light ml-2" > {this.state.task.length } </span> 
           </a> 
       </nav> 
-      <div className = "container">
+      <div className = "container-fluid">
         <div className = "row mt-4">
           <div className = "col-md-4 text-center">
             <img src = {logo} className = "App-logo" alt = "logo"/>
-            <FormTask onAddTask = {this.handleAddTask}></FormTask> 
+            <FormTask  onAddTask = {this.handleAddTask}></FormTask> 
           </div> 
           <div className = "col-md-8">
             <div className = "row" >{task}</div> 
