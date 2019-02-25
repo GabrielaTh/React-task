@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/React-task/static/js/runtime~main.286cf732.js"
   },
   {
-    "revision": "031b688693571615fa2e",
-    "url": "/React-task/static/js/main.031b6886.chunk.js"
+    "revision": "5350bef9c82a7b4d65f8",
+    "url": "/React-task/static/js/main.5350bef9.chunk.js"
   },
   {
     "revision": "4a2faa45d5541713157e",
     "url": "/React-task/static/js/1.4a2faa45.chunk.js"
   },
   {
-    "revision": "031b688693571615fa2e",
-    "url": "/React-task/static/css/main.dbac2ed2.chunk.css"
+    "revision": "5350bef9c82a7b4d65f8",
+    "url": "/React-task/static/css/main.c78a5a46.chunk.css"
   },
   {
-    "revision": "ce3933edc0d585c8208b16091a29db46",
+    "revision": "3384e20481fcdcb8ba9e82da1f967699",
     "url": "/React-task/index.html"
   }
 ];
